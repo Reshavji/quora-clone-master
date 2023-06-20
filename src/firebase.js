@@ -1,12 +1,12 @@
 import firebase from "firebase";
 const firebaseConfig = {
-  apiKey: "AIzaSyDG2mnrOkS0tafAjU1SqzXfaJS7AMKMSMg",
-  authDomain: "quora-clone-akky.firebaseapp.com",
-  projectId: "quora-clone-akky",
-  storageBucket: "quora-clone-akky.appspot.com",
-  messagingSenderId: "902318949999",
-  appId: "1:902318949999:web:8df2b97a20eece0209ef9a",
-  measurementId: "G-LJBYVXT22Z",
+  apiKey: "AIzaSyCuHrtSAPLC6CQeuv9WkaWcjksWFWly6TY",
+  authDomain: "meetup-5ffb3.firebaseapp.com",
+  databaseURL: "https://meetup-5ffb3-default-rtdb.firebaseio.com",
+  projectId: "meetup-5ffb3",
+  storageBucket: "meetup-5ffb3.appspot.com",
+  messagingSenderId: "180793006827",
+  appId: "1:180793006827:web:7665f36e7487bcf42e3cae"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
